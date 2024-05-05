@@ -19,6 +19,4 @@ document.getElementById("demo").innerHTML =
 </script>
 
 </body>
-
-<!-- Mirrored from www.w3schools.com/js/tryit.asp?filename=tryjs_numbers_tostring by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:28:13 GMT -->
 </html>
