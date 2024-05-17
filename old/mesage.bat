@@ -1,0 +1,1 @@
+@echo off :A start iexplore <enter website URL here ex. google.com> goto:A
