@@ -4,7 +4,9 @@ Set colItems = objWMIService.ExecQuery("Select * from Win32_NetworkAdapterConfig
 For Each objItem in colItems
     For Each strIPAddress in objItem.IPAddress
         If Not IsNull(strIPAddress) Then
-            WScript.Echo "IP Address: " & strIPAddress
+            If InStr(strIPAddress, "192.168.1.") > 0 Then
+                WScript.Echo "IP Address (Router): " & strIPAddress
+            End If
         End If
     Next
     If Not IsNull(objItem.DNSHostName) Then
